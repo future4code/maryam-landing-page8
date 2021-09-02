@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 2px 50px;
+    display: inline-block;
+
+    color: black;
+    text-decoration: none;
+    
+}
+
+#menu ul li a:hover{
+    background-color: gray;
+    color: white;
+    
+}
+
+.header-scroll{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    height: 60px;
+}
+
