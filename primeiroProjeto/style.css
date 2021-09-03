@@ -48,3 +48,13 @@ header{
 .imagem-fundo{
     width: 100%;
 }
+
+.cor-letras{
+    color: rgb(115, 196, 115);
+}
+
+/*MAIN*/
+
+main{
+    height: 3vh;
+}
