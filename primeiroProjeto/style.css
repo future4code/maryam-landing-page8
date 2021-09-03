@@ -58,3 +58,29 @@ header{
 main{
     height: 3vh;
 }
+
+
+/*FOOTER*/
+footer{
+    height: 6em;
+    background-color: rgba(52, 87, 88, 0.274);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer h3{
+    align-items: center;
+}
+
+footer a{
+    justify-self:left;
+    align-self: flex-start;
+    text-decoration: unset;
+}
+.img-social{
+    width: 5%;
+}
+footer button{
+    width: 10em;
+}
