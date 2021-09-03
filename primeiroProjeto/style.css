@@ -63,10 +63,60 @@ header{
 
 /*MAIN*/
 
-main{
+/* main{
     height: 3vh;
+    width: 100vw;
+} */
+
+.quem-somos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
 }
 
+/* PRIMEIRO QUADRANTE */
+.primeiro-quadrante{
+    box-shadow: 3px 3px 5px black;
+    margin: 30px;
+}
+
+.fundo-vida{
+    width: 100%;
+}
+/* SEGUNDO QUADRANTE */
+.segundo-quadrante{
+    box-shadow: 3px 3px 5px black;
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(55, 70, 71);
+    color: white;
+}
+/* TERCEIRO QUADRANTE */
+.terceiro-quadrante{
+    box-shadow: 3px 3px 5px black;
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(55, 70, 71);
+    color: white;
+}
+
+/* QUARTO QUADRANTE */
+.quarto-quadrante{
+    box-shadow: 3px 3px 5px black;
+    margin: 30px;
+}
+
+.fundo-carro{
+    width: 100%;
+}
+h2{
+    padding: 12px;
+}
 
 /*FOOTER*/
 footer{
