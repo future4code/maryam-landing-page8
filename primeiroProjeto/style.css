@@ -70,25 +70,21 @@ main{
 
 /*FOOTER*/
 footer{
+    color: aliceblue;
     height: 6em;
-    background-color: rgba(52, 87, 88, 0.274);
+    background-color: #3b4f67;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    border-top: 2px solid black;
 }
 
-footer h3{
-    align-items: center;
+#alinhamento{
+    justify-content: space-between;
+
 }
 
-footer a{
-    justify-self:left;
-    align-self: flex-start;
-    text-decoration: unset;
-}
 .img-social{
-    width: 5%;
-}
-footer button{
-    width: 10em;
+    width: 30%;
+    padding-left: 2em;
 }
