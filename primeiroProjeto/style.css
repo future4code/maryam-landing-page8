@@ -33,7 +33,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* border: 1px solid black; */
     height: 60px;
 }
 header{
@@ -62,11 +61,6 @@ header{
 }
 
 /*MAIN*/
-
-/* main{
-    height: 3vh;
-    width: 100vw;
-} */
 
 .quem-somos{
     display: grid;
@@ -120,6 +114,65 @@ header{
 }
 h2{
     padding: 12px;
+}
+
+.contato{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border-top: 2px solid black;
+}
+main section h1{
+    text-align: center;
+    font-size: 40px;
+    grid-column: 2/3;
+}
+
+#contato-endereco{
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    padding:0;
+}
+#contato-email{
+    grid-row: 2;
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    padding: 0;
+}
+#contato-telefone{
+    grid-row: 2;
+    grid-column: 3;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    padding-top: 0;
+}
+#foto-telefone{
+    width: 26%;
+}
+.fonte-contatos{
+    font-size: x-large;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 1em;
+}
+#perguntas-frequentes{
+    grid-row: 4;
+    grid-column: 1/-1;
+    align-self: center;
+    justify-self: center;
+}
+.botao-perguntas{
+    height: 10vh;
+    width: 20vw;
+    border-style: dashed;
+}
+.botao-perguntas:hover{
+    background-color: rgb(155, 152, 152);
 }
 
 /*FOOTER*/
