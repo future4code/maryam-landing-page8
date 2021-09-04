@@ -57,8 +57,11 @@ header{
 }
 
 .cor-letras{
-    color: rgb(115, 196, 115);
+    /* color: rgb(115, 196, 115); */
+    color: rgb(50, 122, 50);
 }
+
+
 
 /****MAIN*****/
 
@@ -229,4 +232,37 @@ footer{
 .img-social{
     width: 30%;
     padding-left: 2em;
+}
+
+/* RESPONSIVIDADE */
+
+@media(max-width: 375px){
+    header{
+        padding-left: 5px; 
+        padding-top: 40px;
+        height: 150px;
+    }
+    .header-scroll{
+        flex-direction: column;
+        align-items: unset;
+    }
+    ul{
+        text-align: center;  
+        margin: 0;
+    }
+    li{
+        font-size: 20px;
+    }
+    #menu{
+        padding-top: 30px;
+    }
+    .quem-somos, .secao2, .contato{
+        display: flex;
+        flex-direction: column;
+    }
+    .botao-perguntas{
+        width: 150px;
+        height: 50px;   
+    }
+    
 }
