@@ -60,7 +60,7 @@ header{
     color: rgb(115, 196, 115);
 }
 
-/*MAIN*/
+/****MAIN*****/
 
 .quem-somos{
     display: grid;
@@ -147,7 +147,10 @@ h2{
 .btn:hover{
     background-color: rgb(86, 107, 124);
 }
-
+.card p{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
 .contato{
     display: grid;
     height: 100vh;
