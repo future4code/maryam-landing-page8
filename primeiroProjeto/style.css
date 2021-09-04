@@ -115,6 +115,38 @@ header{
 h2{
     padding: 12px;
 }
+.inicio-sec2{
+    background-color:rgba(52, 87, 88, 0.274) ;
+    text-align: center;
+}
+.secao2{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin: 70px;
+}
+.card{
+    border: 1PX SOLID black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 5px gray;
+    padding-bottom: 10px;
+}
+.imagem-card{
+    width: 100%;
+}
+
+.btn{
+    height: 5vh;
+    width: 30vw;
+}
+.btn:hover{
+    background-color: rgb(86, 107, 124);
+}
 
 .contato{
     display: grid;
