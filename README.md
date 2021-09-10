@@ -1,5 +1,5 @@
 # landing-page-template
-### Surge
+### surge
 Surge: lacking-whistle.surge.sh
 
 ### Prints 
